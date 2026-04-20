@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>[COMPANY_NAME] — Card Components</title>
+  <style>
+    /* ======================================
+       CARD SYSTEM
+       Replace values with your brand tokens
+       ====================================== */
+
+    .card {
+      /* ---- CUSTOMIZE THESE ---- */
+      background: #______;            /* var(--color-surface) */
+      border: 1px solid #______;      /* var(--color-border) or 'none' */
+      border-radius: 0px;             /* Adjust: 0 / 8px / 12px */
+      padding: 24px;
+      transition: all 0.2s ease;
+    }
+
+    .card:hover {
+      /* Options: shadow, border color change, translate, bg shift */
+      border-color: #______;           /* var(--color-primary) */
+      /* transform: translateY(-2px); */
+      /* box-shadow: 0 8px 24px rgba(0,0,0,0.15); */
+    }
+
+    .card-title {
+      font-family: '[Your Heading Font]', sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      color: #______;                  /* var(--color-text-primary) */
+      margin: 0 0 8px 0;
+    }
+
+    .card-description {
+      font-family: '[Your Body Font]', sans-serif;
+      font-size: 14px;
+      color: #______;                  /* var(--color-text-secondary) */
+      line-height: 1.5;
+      margin: 0 0 16px 0;
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 8px;
+      background: #______;             /* Tag bg */
+      color: #______;                  /* Tag text */
+      border-radius: 0px;              /* 0 / 4px / 999px */
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #______;   /* var(--color-border) */
+      font-size: 12px;
+      color: #______;                  /* var(--color-text-muted) */
+    }
+
+    /* ---- Preview Layout ---- */
+    body {
+      padding: 48px;
+      background: #______;
+      color: #______;
+      font-family: sans-serif;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+      max-width: 1000px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Card Components</h2>
+  <div class="grid">
+
+    <div class="card">
+      <span class="card-tag">[Category]</span>
+      <h3 class="card-title">[Card Title Here]</h3>
+      <p class="card-description">[Brief description text that explains the card content. Keep it to 1-2 lines.]</p>
+      <div class="card-footer">
+        <span>[Meta info]</span>
+        <span>[Action →]</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="card-tag">[Category]</span>
+      <h3 class="card-title">[Card Title Here]</h3>
+      <p class="card-description">[Brief description text that explains the card content. Keep it to 1-2 lines.]</p>
+      <div class="card-footer">
+        <span>[Meta info]</span>
+        <span>[Action →]</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <span class="card-tag">[Category]</span>
+      <h3 class="card-title">[Card Title Here]</h3>
+      <p class="card-description">[Brief description text that explains the card content. Keep it to 1-2 lines.]</p>
+      <div class="card-footer">
+        <span>[Meta info]</span>
+        <span>[Action →]</span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

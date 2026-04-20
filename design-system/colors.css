@@ -1,0 +1,56 @@
+/* ===========================================
+   [COMPANY_NAME] — Color System
+   Replace all #______ values with your colors
+   =========================================== */
+
+:root {
+  /* ---- Primary Palette ---- */
+  --color-primary:          #______;  /* Main brand color */
+  --color-primary-hover:    #______;  /* Primary hover state */
+  --color-primary-active:   #______;  /* Primary active/pressed */
+  
+  --color-secondary:        #______;  /* Supporting brand color */
+  --color-secondary-hover:  #______;
+  
+  --color-accent:           #______;  /* Highlights, links, focus rings */
+  --color-accent-hover:     #______;
+
+  /* ---- Backgrounds ---- */
+  --color-bg:               #______;  /* Page background */
+  --color-bg-alt:           #______;  /* Alternate sections */
+  --color-surface:          #______;  /* Cards, panels, modals */
+  --color-surface-hover:    #______;  /* Card hover */
+  --color-overlay:          rgba(0, 0, 0, 0.5);  /* Modal/drawer backdrop */
+
+  /* ---- Text ---- */
+  --color-text-primary:     #______;  /* Headings, main body */
+  --color-text-secondary:   #______;  /* Descriptions, captions */
+  --color-text-muted:       #______;  /* Disabled, placeholders */
+  --color-text-inverse:     #______;  /* Text on primary-colored bg */
+
+  /* ---- Borders ---- */
+  --color-border:           #______;  /* Default borders */
+  --color-border-strong:    #______;  /* Emphasized borders */
+
+  /* ---- Feedback ---- */
+  --color-success:          #______;
+  --color-success-bg:       #______;  /* Light success background */
+  --color-warning:          #______;
+  --color-warning-bg:       #______;
+  --color-error:            #______;
+  --color-error-bg:         #______;
+  --color-info:             #______;
+  --color-info-bg:          #______;
+}
+
+/* ---- Dark Mode (if applicable) ---- */
+/* 
+[data-theme="dark"],
+.dark {
+  --color-bg:              #______;
+  --color-surface:         #______;
+  --color-text-primary:    #______;
+  --color-text-secondary:  #______;
+  --color-border:          #______;
+}
+*/

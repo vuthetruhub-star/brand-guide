@@ -1,0 +1,112 @@
+/* ===========================================
+   [COMPANY_NAME] — Typography System
+   Replace [Font Name] and values with yours
+   =========================================== */
+
+/* ---- Font Imports ---- */
+/* Option A: Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=[Font+Name]:wght@400;500;600;700&display=swap'); */
+
+/* Option B: Self-hosted */
+/*
+@font-face {
+  font-family: '[Font Name]';
+  src: url('../assets/fonts/[font-file].woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+*/
+
+:root {
+  /* ---- Font Families ---- */
+  --font-display:   '[Display Font Name]', sans-serif;   /* Hero text, big headings */
+  --font-heading:   '[Heading Font Name]', sans-serif;   /* H1-H3 */
+  --font-body:      '[Body Font Name]', sans-serif;      /* Paragraphs, UI text */
+  --font-mono:      '[Mono Font Name]', monospace;       /* Code, technical */
+
+  /* ---- Font Sizes ---- */
+  --text-display:   ____px;  /* 48-72px — Hero/display */
+  --text-h1:        ____px;  /* 36-48px */
+  --text-h2:        ____px;  /* 28-36px */
+  --text-h3:        ____px;  /* 20-24px */
+  --text-h4:        ____px;  /* 18-20px */
+  --text-body-lg:   ____px;  /* 18px */
+  --text-body:      ____px;  /* 16px */
+  --text-body-sm:   ____px;  /* 14px */
+  --text-caption:   ____px;  /* 12px */
+  --text-overline:  ____px;  /* 10-11px */
+
+  /* ---- Font Weights ---- */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  /* ---- Line Heights ---- */
+  --leading-tight:   1.1;   /* Display text */
+  --leading-snug:    1.25;  /* Headings */
+  --leading-normal:  1.5;   /* Body text */
+  --leading-relaxed: 1.7;   /* Long-form reading */
+
+  /* ---- Letter Spacing ---- */
+  --tracking-tight:   -0.02em;  /* Display/Hero */
+  --tracking-normal:   0;       /* Body */
+  --tracking-wide:     0.05em;  /* Buttons, labels */
+  --tracking-wider:    0.1em;   /* Overlines, caps */
+}
+
+/* ---- Type Presets ---- */
+
+.text-display {
+  font-family: var(--font-display);
+  font-size: var(--text-display);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+}
+
+.text-h1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h1);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-snug);
+  letter-spacing: var(--tracking-tight);
+}
+
+.text-h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h2);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+}
+
+.text-h3 {
+  font-family: var(--font-heading);
+  font-size: var(--text-h3);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-snug);
+}
+
+.text-body {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-normal);
+}
+
+.text-caption {
+  font-family: var(--font-body);
+  font-size: var(--text-caption);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-normal);
+  color: var(--color-text-secondary);
+}
+
+.text-label {
+  font-family: var(--font-body);
+  font-size: var(--text-body-sm);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}

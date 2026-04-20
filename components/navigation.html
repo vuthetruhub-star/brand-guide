@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>[COMPANY_NAME] — Navigation Components</title>
+  <style>
+    /* ======================================
+       NAVIGATION SYSTEM
+       Replace values with your brand tokens
+       ====================================== */
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 48px;
+      height: 64px;
+
+      /* ---- CUSTOMIZE THESE ---- */
+      background: #______;              /* var(--color-bg) or transparent */
+      border-bottom: 1px solid #______; /* var(--color-border) or 'none' */
+      /* backdrop-filter: blur(12px); */  /* Uncomment for glass effect */
+    }
+
+    .navbar-logo {
+      font-family: '[Your Display Font]', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #______;                    /* var(--color-text-primary) */
+      text-decoration: none;
+      letter-spacing: 0.05em;
+      /* text-transform: uppercase; */
+    }
+
+    .navbar-links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-links a {
+      font-family: '[Your Body Font]', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: #______;                    /* var(--color-text-secondary) */
+      text-decoration: none;
+      transition: color 0.2s ease;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 0.05em; */
+    }
+
+    .navbar-links a:hover,
+    .navbar-links a.active {
+      color: #______;                    /* var(--color-primary) or accent */
+    }
+
+    /* Active indicator style — choose one: */
+    .navbar-links a.active {
+      /* Option A: Underline */
+      /* border-bottom: 2px solid #______; padding-bottom: 4px; */
+
+      /* Option B: Background pill */
+      /* background: #______; padding: 4px 12px; border-radius: 4px; */
+
+      /* Option C: Just color change (default) */
+    }
+
+    .navbar-cta {
+      font-family: '[Your Body Font]', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 20px;
+      background: #______;               /* var(--color-primary) */
+      color: #______;                    /* Text on primary */
+      border: none;
+      border-radius: 0px;               /* Match button radius */
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: background 0.2s ease;
+    }
+
+    .navbar-cta:hover {
+      background: #______;               /* var(--color-primary-hover) */
+    }
+
+    /* ---- Mobile Menu Toggle (optional) ---- */
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: #______;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .navbar { padding: 0 20px; }
+      .navbar-links { display: none; }
+      .navbar-cta { display: none; }
+      .menu-toggle { display: block; }
+    }
+
+    /* ---- Preview Layout ---- */
+    body {
+      margin: 0;
+      background: #______;
+      color: #______;
+      font-family: sans-serif;
+    }
+    .preview-note {
+      padding: 48px;
+      font-size: 14px;
+      opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">[COMPANY_NAME]</a>
+
+    <ul class="navbar-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <button class="navbar-cta">[CTA Text]</button>
+    <button class="menu-toggle">☰</button>
+  </nav>
+
+  <div class="preview-note">
+    ↑ Navigation bar preview. Replace colors, fonts, and links with your brand system.
+  </div>
+
+</body>
+</html>
