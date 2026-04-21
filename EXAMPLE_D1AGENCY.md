@@ -11,16 +11,16 @@
 - **Industry:** Digital Agency
 - **Tagline:** Digital systems for bold brand growth
 - **Website:** [https://d1agency.com]
-- **Description:** D1AGENCY is a digital agency focused on building bold, high-performance brand experiences across modern platforms. The brand uses a high-contrast, technology-first visual system built on sharp structure, terminal-inspired color, and controlled digital effects to feel precise, modern, and distinctive.
+- **Description:** D1AGENCY is a digital agency focused on building bold, high-performance brand experiences across modern platforms. The brand uses a high-contrast, technology-first visual system built on sharp structure, hacker-inspired color, and controlled digital effects to feel precise, modern, and easy to use.
 
 ## Visual Identity
 
 ### Style Direction
-- **Aesthetic:** High-contrast, technology-first, sharp and minimal
-- **Mood:** Dark, digital, confident, precise, modern
+- **Aesthetic:** High-contrast, technology-first, hacker-inspired, clean and modern
+- **Mood:** Dark, digital, confident, precise, user-friendly
 - **Era/Inspiration:** Contemporary technology interfaces, system dashboards, terminal-inspired UI, advanced digital product environments
-- **Visual Character:** Strong typography, sharp layout structure, minimal ornament, controlled screen-based effects
-- **Design Goal:** Keep the hacker/terminal DNA in the color system and typography, while presenting the brand as a modern technology agency rather than a retro or nostalgic visual system
+- **Visual Character:** Strong typography, structured layout, rounded-friendly interface borders, minimal ornament, controlled screen-based effects
+- **Design Goal:** Keep the hacker/terminal DNA in the color system and visual language, while making the brand feel easier to use, more readable, and more approachable in actual interface experience
 
 ### Color Palette
 | Role            | Color Name      | Hex                | Usage                                      |
@@ -37,31 +37,30 @@
 | Glow            | Soft Neon      | rgba(0,255,65,0.14)| Controlled glow and ambient highlight      |
 
 ### Typography
-| Role          | Font Family | Weight | Size  | Notes |
-|---------------|------------|--------|-------|-------|
-| Display/Hero  | Termina    | 700    | 64px  | Wide, bold, brand-defining headline style |
-| Heading H1    | Termina    | 700    | 48px  | Primary page headline                     |
-| Heading H2    | Termina    | 600    | 32px  | Section headings                          |
-| Body          | Termina    | 400    | 16px  | Keep line length comfortable, avoid dense blocks |
-| Code/Mono     | Termina    | 400    | 14px  | UI labels, system notes, small meta text  |
-| Button/Label  | Termina    | 600    | 14px  | Uppercase preferred, slight letter spacing |
+| Role          | Font Family | Weight | Notes |
+|---------------|------------|--------|-------|
+| Display/Hero  | Orbitron   | 700    | Primary display font for hero, headlines, logo-like impact |
+| Heading H1    | Orbitron   | 700    | Strong top-level headings with futuristic technology feel |
+| Heading H2    | Orbitron   | 600    | Section headings with structured brand presence |
+| Body          | Barlow     | 400    | Main body font for readability, interface clarity, and usability |
+| UI Text       | Barlow     | 400/500| Used for forms, navigation, supporting interface copy |
+| Code/Mono     | Space Mono | 400    | Used for code, system text, tags, labels, technical accents |
+| Button/Label  | Space Mono | 400    | Used for labels, meta text, chips, controls, and uppercase utility text |
 
 ### Shapes & Layout
-- **Corner Radius Principle:** 0px is the default across the entire layout to preserve a minimal, sharp, technology-first structure
-- **Asymmetry Rule:** Use selective partial rounding on specific corners only when you want to create an intentional visual accent
-- **Accent Radius Usage:** Allow 6px–12px radius on one or two corners of selected components such as floating tags, badges, active buttons, special panels or callout modules
-- **Cards/Panels:** Primarily square-edged, with occasional asymmetric corner treatment for emphasis
-- **Buttons:** Mostly sharp-edged; selected high-priority buttons may use one-sided or asymmetric light rounding
-- **Layout Density:** Structured, grid-based, precise, with more breathing room than a dense terminal interface
-- **Design Principle:** Minimalism first; asymmetry used sparingly as a compositional detail, not as a softening system
+- **Corner Radius Principle:** Borders and containers can be rounded to improve usability and friendliness
+- **Default Border Style:** Use soft rounded corners across key interface elements such as cards, buttons, inputs, modals and panels
+- **Layout Structure:** Keep the overall composition clean, structured, modular and technology-first
+- **System Balance:** Retain strong digital structure, but soften component edges to improve interaction comfort
+- **Design Principle:** Usability comes first; the hacker visual language should feel modern and accessible, not harsh or difficult
 
 ### Effects & Textures
 - **Shadows:** None or very subtle green ambient glow
 - **Gradients:** No
-- **Noise/Grain:** Moderate CRT scanline effect with restrained soft noise overlay
+- **Noise/Grain:** CRT scanline effect reduced to a moderate level, paired with restrained soft noise overlay
 - **Animations:** Terminal typing effect, slower cursor blink, minimal glitch on key interactions only
 - **Hover effects:** Green glow, brightness lift, subtle text flicker
-- **CRT Treatment:** Approximately 50% intensity — visible enough to create digital screen atmosphere, but reduced enough to avoid visual discomfort
+- **CRT Treatment:** Around 50% intensity — visible enough to create digital screen atmosphere, but reduced enough to avoid visual discomfort
 - **Screen Feel:** Slight softness, controlled grain, restrained flicker, no heavy distortion
 
 ### Asset Direction
@@ -71,32 +70,33 @@
 - **Texture Usage:** Use texture as controlled atmosphere, not nostalgic decoration
 
 ### UI Behavior
-- **Contrast Strategy:** Keep green-on-black as the core identity, with careful use of layered surfaces to avoid visual fatigue
-- **Text Usage:** Use pure terminal green for headings, active states and key UI messaging; use muted green for longer reading
+- **Contrast Strategy:** Keep green-on-black as the core identity, with layered surfaces and improved text hierarchy to reduce visual fatigue
+- **Text Usage:** Use pure terminal green for headings, active states and key UI messaging; use muted green for body copy and long-form reading
+- **Readability Priority:** Readability and ease of interaction come before visual severity
 - **Glow Usage:** Keep glow local, sharp and intentional; never wash the interface in neon
 - **Motion Tone:** Controlled, deliberate, technical; avoid chaotic or overly dramatic movement
-- **Structure Tone:** Prioritize clarity, alignment and modularity over decorative personality
+- **Structure Tone:** Prioritize clarity, alignment, modularity and ease of use over visual aggressiveness
 
 ### Do's
-- Use Termina consistently across the system for strong brand identity
+- Use Orbitron for display and headline typography
+- Use Barlow for body copy, interface text and readable content areas
+- Use Space Mono for labels, tags, code-like accents and system metadata
 - Keep the green-on-black hacker palette as the core visual signature
-- Use 0px radius as the default layout rule
-- Apply asymmetric corner rounding selectively to create intentional visual accents
-- Keep the interface minimal, structured and technology-first
+- Use rounded borders on interactive and content surfaces to improve usability
+- Keep the interface structured, modern and technology-first
 - Use CRT effects at a moderate level only
 - Use high contrast in hero and headings, but softer hierarchy in body content
-- Use generous spacing to keep the interface readable and modern
-- Use uppercase for labels and buttons where it improves hierarchy
-- Build visual interest through structure, contrast, and selective asymmetry
+- Use generous spacing to keep the interface readable and easy to navigate
+- Use uppercase selectively for labels, buttons and system-style text
 
 ### Don'ts
-- Don’t use fully rounded cards or a softened rounded UI system
-- Don’t introduce retro, nostalgic, or vintage visual language
+- Don’t use retro, nostalgic, or vintage visual language
 - Don’t overuse glitch, flicker, scanlines or cursor animations
 - Don’t make every text element pure neon green
 - Don’t apply heavy glow to entire sections or large surfaces
 - Don’t use gradients, glossy effects or colorful decorative accents outside the green system
-- Don’t use playful rounded iconography that weakens the technology feel
+- Don’t use overly sharp, dense layouts that reduce usability
 - Don’t overcrowd layouts with excessive terminal frames or noisy overlays
 - Don’t use stock photography that breaks the high-tech brand language
+- Don’t use decorative fonts outside the defined typography system
 ```
