@@ -75,7 +75,7 @@
 - **Rule:** Depth should come from glow, border contrast, and panel layering, not heavy blur shadows
 
 #### Motion
-- **Motion Style:** Technical, responsive, minimal
+- **Motion Style:** Technical, responsive
 - **Easing:** 
   - Ease-out: `cubic-bezier(0.2, 0.8, 0.2, 1)`
   - Snap: `cubic-bezier(0.5, 0, 0.1, 1)`
@@ -90,12 +90,12 @@
 - **Pill Rule:** Reserved for rare chips or status badges, never as the default system shape
 
 #### Spacing Scale
-- **System:** Mono-labelled, stepped scale
+- **System:** stepped scale
 - **Tokens:** XS 4px, SM 8px, MD 16px, LG 24px, XL 32px, 2XL 48px, 3XL 64px, 4XL 96px, 5XL 128px
 - **Rule:** Use stepped spacing consistently; avoid arbitrary values unless needed for precise alignment
 
 ### Effects & Textures
-- **Shadows:** None or very subtle green ambient glow
+- **Shadows:** None, low or very subtle green ambient glow
 - **Gradients:** No
 - **Noise / Grain:** Moderate CRT scanline effect with restrained soft noise
 - **Animations:** Terminal typing, slower cursor blink, minimal glitch on key interactions
