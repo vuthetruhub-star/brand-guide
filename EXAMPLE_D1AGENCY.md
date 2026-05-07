@@ -56,9 +56,9 @@
 |---|---|---|---|
 | Display / Hero | Orbitron | 700 | Hero, high-impact headings |
 | Heading | Orbitron | 600–700 | H1, H2, key section titles |
-| Body | Source Sans 3 | 400 | Main content, descriptions, longer reading |
-| UI Text | Source Sans 3 | 400–600 | Navigation, forms, buttons |
-| Code / Label | JetBrains Mono | 400 | Labels, tags, system text, metadata |
+| Body | Exo 2 | 400 | Main content, descriptions, longer reading |
+| UI Text | JetBrains Mono | 400–600 | Navigation, forms, buttons |
+| Code / Label | Intel One Mono | 400 | Labels, tags, system text, metadata |
 
 ### Shapes & Layout
 - **Corner Style:** Controlled technical rounding
